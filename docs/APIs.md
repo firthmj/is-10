@@ -77,13 +77,13 @@ Resource depending on the OAuth 2.0 grant type used.
 
 ### Authorization Code Grant Flow
 
-This flow can be used for any NMOS interaction.
+This flow is permitted for any NMOS interaction.
 
 ![Authorization Flow](images/authorization_flow.png)
 
 ### Client Credentials Grant Flow
 
-This flow can only be used in specific interactions. Refer to [BCP-003-02][BCP-003-02] for permitted uses of
+This flow is only permitted for some specific interactions. Refer to [BCP-003-02][BCP-003-02] for permitted uses of
 this grant.
 
 ![Client Credentials Flow](images/client_credentials_flow.png)
